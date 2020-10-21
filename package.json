@@ -1,0 +1,15 @@
+{
+  "name": "node-http-server",
+  "version": "1.0.0",
+  "description": "Node.js example server starter project",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "concurrently \"tsc -w\" \"nodemon -q -w dist dist/index.js\""
+  },
+  "dependencies": {
+    "@nestjs/cli": "7.5.1"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
